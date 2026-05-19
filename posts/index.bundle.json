@@ -8,11 +8,11 @@
       "category": "Product",
       "readingMin": 4,
       "en": {
-        "title": "Introducing SMEAN 2.0: faster, more accurate Khmer transcription",
+        "title": "Introducing Smean 2.0: faster, more accurate Khmer transcription",
         "excerpt": "We're excited to announce the next generation of our Khmer speech-to-text engine with 30% improved accuracy."
       },
       "km": {
-        "title": "ស្គាល់ SMEAN 2.0: បំប្លែងសម្ដីខ្មែរ លឿនជាងមុន ត្រឹមត្រូវជាងមុន",
+        "title": "ស្គាល់ Smean 2.0: បំប្លែងសម្ដីខ្មែរ លឿនជាងមុន ត្រឹមត្រូវជាងមុន",
         "excerpt": "យើងសប្បាយចិត្តប្រកាសម៉ាស៊ីនបំប្លែងសម្ដីខ្មែរជំនាន់ថ្មីរបស់យើង ដែលមានភាពត្រឹមត្រូវកើនឡើង ៣០%។"
       }
     },
@@ -46,7 +46,7 @@
       "readingMin": 5,
       "en": {
         "title": "Case study: how a regional bank saves 100+ hours of meeting documentation each month",
-        "excerpt": "An anonymized look at how a multi-branch financial-services team uses SMEAN to capture internal meetings."
+        "excerpt": "An anonymized look at how a multi-branch financial-services team uses Smean to capture internal meetings."
       }
     }
   ]

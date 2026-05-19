@@ -1,13 +1,13 @@
 ---
 title: "Case study: how a regional bank saves 100+ hours of meeting documentation each month"
-excerpt: "An anonymized look at how a multi-branch financial-services team uses SMEAN to capture internal meetings."
+excerpt: "An anonymized look at how a multi-branch financial-services team uses Smean to capture internal meetings."
 date: 2025-12-20
 category: Case Study
 readingMin: 5
 ---
 
 A regional bank with branch operations across Cambodia holds an
-average of **240 internal meetings a week**. Before adopting SMEAN,
+average of **240 internal meetings a week**. Before adopting Smean,
 most of those meetings either went undocumented or required dedicated
 minute-takers — a costly bottleneck that quietly degraded handoffs
 between branches.

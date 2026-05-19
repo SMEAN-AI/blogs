@@ -17,7 +17,7 @@ that used to cost $80 to transcribe by hand now costs less than a coffee.
 
 In this piece we walk through how three institutions — the
 **Royal University of Phnom Penh**, **BBC Khmer**, and a midsize NGO —
-are using SMEAN to turn audio archives into searchable corpora.
+are using Smean to turn audio archives into searchable corpora.
 
 ### Royal University of Phnom Penh
 

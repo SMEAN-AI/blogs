@@ -1,4 +1,4 @@
-# SMEAN Blog
+# Smean Blog
 
 Markdown source for posts on https://smean.ai/blog.
 

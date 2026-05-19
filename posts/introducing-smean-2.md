@@ -1,12 +1,12 @@
 ---
-title: "Introducing SMEAN 2.0: faster, more accurate Khmer transcription"
+title: "Introducing Smean 2.0: faster, more accurate Khmer transcription"
 excerpt: "We're excited to announce the next generation of our Khmer speech-to-text engine with 30% improved accuracy."
 date: 2026-01-15
 category: Product
 readingMin: 4
 ---
 
-SMEAN 2.0 retrains our acoustic and language models on **12,000 hours**
+Smean 2.0 retrains our acoustic and language models on **12,000 hours**
 of Cambodian audio — meetings, interviews, clinic visits, and street
 recordings across every major dialect.
 

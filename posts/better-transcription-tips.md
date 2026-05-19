@@ -22,7 +22,7 @@ possible, put the recorder closer to the *quieter* speaker.
 
 ## 3. Tag the dialect if you know it
 
-SMEAN auto-detects, but Battambang and Khmer Surin benefit from a hint.
+Smean auto-detects, but Battambang and Khmer Surin benefit from a hint.
 Use the dialect dropdown when uploading.
 
 ## 4. Watch the background music
@@ -32,6 +32,6 @@ hurts. Run audio through a free noise-suppression tool first if needed.
 
 ## 5. Don't pre-translate code-switched meetings
 
-Leave English where it is; SMEAN handles the boundary. Manually
+Leave English where it is; Smean handles the boundary. Manually
 substituting Khmer translations into English-spoken sentences confuses
 both the language model and downstream readers.
