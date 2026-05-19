@@ -1,0 +1,44 @@
+name: Verify post index
+
+# Read-only CI check: rebuilds `posts/index.bundle.json` from the
+# current markdown and fails if it differs from what's committed.
+# Catches the case where an author forgot `npm run build-index`
+# before pushing.
+#
+# No write permission, no secrets used — just a sanity check that
+# the bundle on `main` matches the underlying posts.
+
+on:
+  pull_request:
+    paths:
+      - 'posts/**'
+      - 'scripts/build-index.mjs'
+  push:
+    branches: [main]
+    paths:
+      - 'posts/**'
+      - 'scripts/build-index.mjs'
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Rebuild bundle
+        run: node scripts/build-index.mjs
+
+      - name: Check bundle is up to date
+        run: |
+          if ! git diff --exit-code posts/index.bundle.json; then
+            echo "::error::posts/index.bundle.json is out of date."
+            echo "::error::Run \`npm run build-index\` locally and commit the result."
+            exit 1
+          fi

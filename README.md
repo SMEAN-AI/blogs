@@ -30,7 +30,19 @@ Markdown source for posts on https://smean.ai/blog.
 3. Add the slug to `posts/index.json` — the order in that array is the
    order posts appear on the index page (newest first).
 
-4. Open a PR. Once merged to `main`, the post goes live within a minute.
+4. Rebuild the post index:
+
+   ```bash
+   npm run build-index
+   ```
+
+   This regenerates `posts/index.bundle.json` from your markdown — the
+   site reads that one file for the index page, so it must be kept in
+   sync. CI will fail the PR if you forget.
+
+5. Open a PR with the markdown files **and** the regenerated
+   `posts/index.bundle.json`. Once merged to `main`, the post goes
+   live within a minute.
 
 ## Khmer translation (optional)
 
