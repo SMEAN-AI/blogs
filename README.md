@@ -32,6 +32,31 @@ Markdown source for posts on https://smean.ai/blog.
 
 4. Open a PR. Once merged to `main`, the post goes live within a minute.
 
+## Khmer translation (optional)
+
+To add a Khmer version of a post, create a sibling file alongside the
+English one with `.km.md` instead of `.md`:
+
+```
+posts/your-slug.md       ← English (required, canonical)
+posts/your-slug.km.md    ← Khmer (optional)
+```
+
+The Khmer file only needs `title`, `excerpt`, and the translated body:
+
+```markdown
+---
+title: "ចំណងជើងជាខ្មែរ"
+excerpt: "សេចក្តីសង្ខេបជាខ្មែរ។"
+---
+
+មាតិកាជាខ្មែរ…
+```
+
+Date, category, and `readingMin` are inherited from the English file —
+don't repeat them. Posts without a Khmer file fall back to English with
+a small "Khmer coming soon" notice.
+
 ## Slug rules
 
 Lowercase letters, digits, and hyphens only. Keep it short and
