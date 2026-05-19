@@ -141,9 +141,12 @@ async function main() {
     process.exit(1)
   }
 
+  // No `generatedAt` field — keeping the output deterministic for the
+  // same input is what lets the verify-index workflow detect drift via
+  // a plain `git diff`. If we ever need a timestamp, derive it from
+  // the latest post `date` instead so it stays content-driven.
   const bundle = {
     version: 1,
-    generatedAt: new Date().toISOString(),
     posts,
   }
 
