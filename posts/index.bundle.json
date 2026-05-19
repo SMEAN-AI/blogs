@@ -2,6 +2,21 @@
   "version": 1,
   "posts": [
     {
+      "slug": "smean-2-beta",
+      "path": "smean-2-beta",
+      "date": "2026-05-20",
+      "category": "Product",
+      "readingMin": 5,
+      "en": {
+        "title": "Smean 2.0 is in beta — new design, faster transcription, and a redesigned workspace",
+        "excerpt": "We're opening Smean 2.0 to early users. A redrawn design system, a workspace built around how you actually work, and accuracy improvements across every Khmer dialect."
+      },
+      "km": {
+        "title": "Smean 2.0 ឥឡូវនេះស្ថិតក្នុង Beta — រូបរាងថ្មី លឿនជាងមុន និងកន្លែងធ្វើការដែលរៀបចំឡើងវិញ",
+        "excerpt": "យើងបើក Smean 2.0 សម្រាប់អ្នកប្រើដំបូង។ ប្រព័ន្ធរូបរាងថ្មី កន្លែងធ្វើការដែលរៀបចំឡើងវិញ និងភាពត្រឹមត្រូវកើនឡើងលើគ្រប់គ្រាមភាសាខ្មែរ។"
+      }
+    },
+    {
       "slug": "introducing-smean-2",
       "path": "introducing-smean-2",
       "date": "2026-01-15",
