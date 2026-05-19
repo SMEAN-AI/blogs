@@ -4,8 +4,17 @@ Markdown source for posts on https://smean.ai/blog.
 
 ## Adding a post
 
-1. Create `posts/<slug>.md`. The filename becomes the URL slug, e.g.
-   `posts/introducing-smean-2.md` → `/blog/introducing-smean-2`.
+1. Create the file under `posts/`. You can nest by year, category, or
+   anything that helps you stay organized — the URL doesn't reflect
+   the folder structure:
+
+   ```
+   posts/2026/launch-x.md           → /blog/launch-x
+   posts/tutorials/get-started.md   → /blog/get-started
+   ```
+
+   The filename (without `.md`) is the URL slug. Slugs must be unique
+   across the whole tree.
 
 2. Start the file with YAML frontmatter:
 
@@ -27,31 +36,26 @@ Markdown source for posts on https://smean.ai/blog.
    `category` must be one of: `Product`, `Industry`, `Tutorial`,
    `Case Study`.
 
-3. Add the slug to `posts/index.json` — the order in that array is the
-   order posts appear on the index page (newest first).
-
-4. Rebuild the post index:
+3. Rebuild the index:
 
    ```bash
    npm run build-index
    ```
 
-   This regenerates `posts/index.bundle.json` from your markdown — the
-   site reads that one file for the index page, so it must be kept in
-   sync. CI will fail the PR if you forget.
+   This rescans `posts/`, sorts by date (newest first), and writes
+   `posts/index.bundle.json`. The site reads that one file for its
+   listing page — CI will fail the PR if you forget.
 
-5. Open a PR with the markdown files **and** the regenerated
-   `posts/index.bundle.json`. Once merged to `main`, the post goes
-   live within a minute.
+4. Commit the markdown **and** the regenerated bundle. Once merged to
+   `main`, the post goes live within a minute.
 
 ## Khmer translation (optional)
 
-To add a Khmer version of a post, create a sibling file alongside the
-English one with `.km.md` instead of `.md`:
+Drop a sibling file with `.km.md` next to the English file:
 
 ```
-posts/your-slug.md       ← English (required, canonical)
-posts/your-slug.km.md    ← Khmer (optional)
+posts/2026/launch-x.md      ← English (required, canonical)
+posts/2026/launch-x.km.md   ← Khmer (optional)
 ```
 
 The Khmer file only needs `title`, `excerpt`, and the translated body:
@@ -71,8 +75,9 @@ a small "Khmer coming soon" notice.
 
 ## Slug rules
 
-Lowercase letters, digits, and hyphens only. Keep it short and
-descriptive — it shows up in the URL.
+Lowercase letters, digits, and hyphens only. Keep slugs short and
+descriptive — they show up in the URL. Slugs must be unique across the
+whole `posts/` tree regardless of which folder a file lives in.
 
 ## Images
 
