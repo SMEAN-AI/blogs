@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "id": "v2-beta-popup-2026-05",
+  "showAfterSeconds": 12,
+  "cooldownDays": 7,
+  "ctaHref": "/blog/smean-2-beta",
+  "title": {
+    "en": "SMEAN 2.0 is in beta.",
+    "km": "SMEAN 2.0 ស្ថិតក្នុង Beta។"
+  },
+  "body": {
+    "en": "A new design, faster transcription, and a redesigned workspace — built on a year of running SMEAN in production.",
+    "km": "រូបរាងថ្មី បំប្លែងលឿនជាងមុន និងកន្លែងធ្វើការដែលរៀបចំឡើងវិញ — បង្កើតពីបទពិសោធន៍ដំណើរការ SMEAN មួយឆ្នាំ។"
+  },
+  "ctaLabel": {
+    "en": "See what's new",
+    "km": "មើលអ្វីដែលថ្មី"
+  },
+  "secondaryLabel": {
+    "en": "Maybe later",
+    "km": "ពេលក្រោយ"
+  }
+}
