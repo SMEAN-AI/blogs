@@ -3,7 +3,7 @@
   "posts": [
     {
       "slug": "introducing-smean-2",
-      "path": "2026/introducing-smean-2",
+      "path": "introducing-smean-2",
       "date": "2026-01-15",
       "category": "Product",
       "readingMin": 4,
@@ -18,7 +18,7 @@
     },
     {
       "slug": "ai-khmer-documentation",
-      "path": "2026/ai-khmer-documentation",
+      "path": "ai-khmer-documentation",
       "date": "2026-01-10",
       "category": "Industry",
       "readingMin": 6,
@@ -29,7 +29,7 @@
     },
     {
       "slug": "better-transcription-tips",
-      "path": "2026/better-transcription-tips",
+      "path": "better-transcription-tips",
       "date": "2026-01-05",
       "category": "Tutorial",
       "readingMin": 3,
@@ -40,7 +40,7 @@
     },
     {
       "slug": "regional-bank-case-study",
-      "path": "2025/regional-bank-case-study",
+      "path": "regional-bank-case-study",
       "date": "2025-12-20",
       "category": "Case Study",
       "readingMin": 5,
