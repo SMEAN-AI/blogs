@@ -37,7 +37,7 @@ Data residency is unchanged. Servers stay in Phnom Penh, audio never leaves Camb
 
 ## How to join the beta
 
-The 2.0 beta is rolling out to all existing accounts this week. Free-tier users will see it next week. No action required — your existing transcripts will reprocess at the higher accuracy on next access if you opt in.
+The 2.0 beta is rolling out to all existing accounts this week. No action required — your existing transcripts will reprocess at the higher accuracy on next access if you opt in.
 
 If you're new to Smean, sign up at [smean.ai](https://smean.ai) and you'll land on 2.0 by default. Your first 15 minutes are on us, no card required.
 

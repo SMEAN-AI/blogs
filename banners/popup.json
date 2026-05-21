@@ -5,12 +5,12 @@
   "cooldownDays": 7,
   "ctaHref": "/blog/smean-2-beta",
   "title": {
-    "en": "SMEAN 2.0 is in beta.",
-    "km": "SMEAN 2.0 ស្ថិតក្នុង Beta។"
+    "en": "Smean 2.0 is in beta.",
+    "km": "Smean 2.0 ស្ថិតក្នុង Beta។"
   },
   "body": {
-    "en": "A new design, faster transcription, and a redesigned workspace — built on a year of running SMEAN in production.",
-    "km": "រូបរាងថ្មី បំប្លែងលឿនជាងមុន និងកន្លែងធ្វើការដែលរៀបចំឡើងវិញ — បង្កើតពីបទពិសោធន៍ដំណើរការ SMEAN មួយឆ្នាំ។"
+    "en": "A new design, faster transcription, and a redesigned workspace — built on a year of running Smean in production.",
+    "km": "រូបរាងថ្មី បំប្លែងលឿនជាងមុន និងកន្លែងធ្វើការដែលរៀបចំឡើងវិញ — បង្កើតពីបទពិសោធន៍ដំណើរការ Smean មួយឆ្នាំ។"
   },
   "ctaLabel": {
     "en": "See what's new",
