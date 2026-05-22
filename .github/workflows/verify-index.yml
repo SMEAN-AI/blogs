@@ -5,7 +5,7 @@ name: Verify post index
 # Catches the case where an author forgot `npm run build-index`
 # before pushing.
 #
-# No write permission, no secrets used — just a sanity check that
+# No write permission, no secrets used - just a sanity check that
 # the bundle on `main` matches the underlying posts.
 
 on:

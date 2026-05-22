@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Compiles `posts/index.bundle.json` — a single file containing the
+// Compiles `posts/index.bundle.json` - a single file containing the
 // metadata (slug + frontmatter for both locales) of every published
 // post. The brand site fetches this one file for the listing page,
 // instead of fanning out to one request per post.
@@ -13,11 +13,11 @@
 //   posts/<anything>/<slug>.km.md      ← Khmer translation (optional)
 //
 // Authors may nest files freely (by year, category, anything) for
-// disk organization. The URL slug is the file basename — folder
+// disk organization. The URL slug is the file basename - folder
 // structure is invisible to readers. `slug` must be unique across
 // the whole tree; collisions fail the build.
 //
-// No `posts/index.json` to maintain — posts are discovered by walking
+// No `posts/index.json` to maintain - posts are discovered by walking
 // the tree and ordered by frontmatter `date` (newest first).
 
 import { readFile, writeFile, readdir, stat } from 'node:fs/promises'
@@ -85,7 +85,7 @@ async function loadPost(enPath, errors) {
   const slug = basename(enRelNoExt)                 // e.g. "launch"
 
   if (!SLUG_REGEX.test(slug)) {
-    errors.push(`Invalid slug at posts/${enRel} — basename must match ${SLUG_REGEX}`)
+    errors.push(`Invalid slug at posts/${enRel} - basename must match ${SLUG_REGEX}`)
     return null
   }
 
@@ -145,11 +145,11 @@ async function main() {
     if (post) posts.push(post)
   }
 
-  // Slug uniqueness — collisions would produce ambiguous URLs.
+  // Slug uniqueness - collisions would produce ambiguous URLs.
   const seen = new Map()
   for (const p of posts) {
     if (seen.has(p.slug)) {
-      errors.push(`Duplicate slug "${p.slug}" — both posts/${seen.get(p.slug)}.md and posts/${p.path}.md`)
+      errors.push(`Duplicate slug "${p.slug}" - both posts/${seen.get(p.slug)}.md and posts/${p.path}.md`)
     } else {
       seen.set(p.slug, p.path)
     }
@@ -169,7 +169,7 @@ async function main() {
   })
 
   // No `generatedAt` so the same input always produces the same bytes
-  // — that's what lets CI verify the bundle is up to date with a
+  // - that's what lets CI verify the bundle is up to date with a
   // plain `git diff --exit-code`.
   const bundle = { version: 1, posts }
 

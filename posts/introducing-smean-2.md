@@ -1,6 +1,6 @@
 ---
 title: "Introducing SMEAN 2.0: a new workspace, a consistent design, and full cross-device support"
-excerpt: "SMEAN 2.0 is now in beta — a redesigned workspace, a unified design system, and full responsiveness across phone, tablet, and desktop."
+excerpt: "SMEAN 2.0 is now in beta - a redesigned workspace, a unified design system, and full responsiveness across phone, tablet, and desktop."
 date: 2026-01-15
 category: Product
 readingMin: 4
@@ -8,7 +8,7 @@ readingMin: 4
 
 Today we're opening the beta for **SMEAN 2.0**.
 
-This is the biggest release we've shipped since launching in early 2025. It isn't a model update — the transcription engine you already know is still doing the heavy lifting underneath. What's new is everything around it. The workspace, the visual identity, and the way SMEAN behaves across your devices have all been rebuilt to live in one consistent standard.
+This is the biggest release we've shipped since launching in early 2025. It isn't a model update - the transcription engine you already know is still doing the heavy lifting underneath. What's new is everything around it. The workspace, the visual identity, and the way SMEAN behaves across your devices have all been rebuilt to live in one consistent standard.
 
 ## What's new in the beta
 
@@ -21,17 +21,17 @@ For a long time, SMEAN was a list of transcripts. That worked when most people h
 - Search across every spoken word in your account, then jump from a quote straight to that moment in the audio
 - Share workspaces with your team, with role-based permissions and audit logs for clients who need them
 
-The audit log piece matters for the ministries, NGOs, and healthcare organizations we work with — we built it because they asked for it.
+The audit log piece matters for the ministries, NGOs, and healthcare organizations we work with - we built it because they asked for it.
 
 ### A consistent design system
 
 2.0 runs on a single design system across every surface: sign-in, workspace, settings, the marketing site, and the mobile app. Matched typography in both Khmer and English, an 8px layout grid, color tokens that switch cleanly between light and dark mode, and proper touch targets on mobile. The goal is that moving between pages doesn't feel like moving between products.
 
-The new identity leans into a Celadon Blue palette with warm oat tones — serious and trustworthy, but with room to breathe. If you're curious about the thinking behind it, we'll publish a separate post on the rebrand soon.
+The new identity leans into a Celadon Blue palette with warm oat tones - serious and trustworthy, but with room to breathe. If you're curious about the thinking behind it, we'll publish a separate post on the rebrand soon.
 
 ### Full responsiveness across every device
 
-SMEAN 2.0 works the same way on **phone, tablet, and desktop**. A lot of our users record on a phone in the field, review on a tablet on the way back, and edit on a desktop at the office. The product is built for that flow now — not retrofitted into it.
+SMEAN 2.0 works the same way on **phone, tablet, and desktop**. A lot of our users record on a phone in the field, review on a tablet on the way back, and edit on a desktop at the office. The product is built for that flow now - not retrofitted into it.
 
 ### Everything else, refreshed
 
@@ -42,7 +42,7 @@ SMEAN 2.0 works the same way on **phone, tablet, and desktop**. A lot of our use
 
 ## How to join the beta
 
-If you already have a SMEAN account, beta access is rolling out this week — keep an eye on your inbox.
+If you already have a SMEAN account, beta access is rolling out this week - keep an eye on your inbox.
 
 If you're new, sign up at [smean.ai](https://www.smean.ai). The first 15 minutes are on us.
 
