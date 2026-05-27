@@ -31,23 +31,8 @@ Notes used to be a list. In 2.0 the workspace is a real working surface - search
 - **Mobile recording** that uploads in the background and recovers cleanly from spotty connectivity
 - **Khmer–English mixed audio** handled natively - no need to pick a language
 
-### Still in-country
-
-Data residency is unchanged. Servers stay in Phnom Penh, audio never leaves Cambodia, keys are rotated quarterly. SOC 2 Type II audit is in progress.
-
 ## How to join the beta
 
 The 2.0 beta is rolling out to all existing accounts this week. No action required - your existing transcripts will reprocess at the higher accuracy on next access if you opt in.
 
 If you're new to Smean, sign up at [smean.ai](https://smean.ai) and you'll land on 2.0 by default. Your first 15 minutes are on us, no card required.
-
-## What's coming
-
-A handful of things didn't make the beta cut and are scheduled for the GA release:
-
-- A public REST API for transcription and summarization
-- Native Zoom and Google Meet integrations
-- On-device redaction for clinical workflows
-- A desktop app for offline recording
-
-We'll write about each of these as they ship. Subscribe to the [blog](/blog) for updates, or send beta feedback to feedback@smean.ai - we read everything.
