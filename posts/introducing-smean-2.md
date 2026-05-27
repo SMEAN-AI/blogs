@@ -1,7 +1,7 @@
 ---
 title: "Introducing SMEAN 2.0: a new workspace, a consistent design, and full cross-device support"
 excerpt: "SMEAN 2.0 is now in beta - a redesigned workspace, a unified design system, and full responsiveness across phone, tablet, and desktop."
-date: 2026-01-15
+date: 2026-05-26
 category: Product
 readingMin: 4
 ---

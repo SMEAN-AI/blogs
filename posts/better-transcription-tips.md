@@ -1,7 +1,7 @@
 ---
 title: "5 tips for getting better transcription results"
 excerpt: "Small habits at the recording stage do more for accuracy than any model upgrade we can ship. Here's what we tell our users."
-date: 2026-01-05
+date: 2026-05-26
 category: Tutorial
 readingMin: 3
 ---

@@ -1,7 +1,7 @@
 ---
 title: "How AI is transforming Khmer language documentation"
 excerpt: "From ministry meetings to community health interviews, Khmer speech is finally being captured at scale. Here's what changes when transcription stops being the bottleneck."
-date: 2026-01-10
+date: 2026-05-26
 category: Industry
 readingMin: 6
 ---

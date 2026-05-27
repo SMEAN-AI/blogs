@@ -1,7 +1,7 @@
 ---
 title: "Smean 2.0 is in beta - new design, faster transcription, and a redesigned workspace"
 excerpt: "We're opening Smean 2.0 to early users. A redrawn design system, a workspace built around how you actually work, and accuracy improvements across every Khmer dialect."
-date: 2026-05-20
+date: 2026-05-26
 category: Product
 readingMin: 5
 ---
