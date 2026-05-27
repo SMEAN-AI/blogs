@@ -52,17 +52,6 @@
         "title": "5 tips for getting better transcription results",
         "excerpt": "Learn how to optimize your audio recordings for maximum transcription accuracy."
       }
-    },
-    {
-      "slug": "regional-bank-case-study",
-      "path": "regional-bank-case-study",
-      "date": "2025-12-20",
-      "category": "Case Study",
-      "readingMin": 5,
-      "en": {
-        "title": "Case study: how a regional bank saves 100+ hours of meeting documentation each month",
-        "excerpt": "An anonymized look at how a multi-branch financial-services team uses Smean to capture internal meetings."
-      }
     }
   ]
 }
